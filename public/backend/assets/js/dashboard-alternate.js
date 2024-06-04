@@ -22,7 +22,7 @@ var options = {
             left: 14,
             blur: 4,
             opacity: 0.12,
-            color: '#0d6efd',
+            color: '#ff0000',
         },
         sparkline: {
             enabled: true
@@ -30,7 +30,7 @@ var options = {
     },
     markers: {
         size: 0,
-        colors: ["#0d6efd"],
+        colors: ["#ff0000"],
         strokeColors: "#fff",
         strokeWidth: 2,
         hover: {
@@ -52,7 +52,7 @@ var options = {
         width: 2.5,
         curve: 'smooth'
     },
-    colors: ["#0d6efd"],
+    colors: ["#ff0000"],
     xaxis: {
         categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     },
@@ -439,7 +439,7 @@ var options = {
             left: 14,
             blur: 4,
             opacity: 0.12,
-            color: '#0d6efd',
+            color: '#ff0000',
         },
         sparkline: {
             enabled: false
@@ -447,7 +447,7 @@ var options = {
     },
     markers: {
         size: 0,
-        colors: ["#0d6efd"],
+        colors: ["#ff0000"],
         strokeColors: "#fff",
         strokeWidth: 2,
         hover: {
@@ -483,7 +483,7 @@ var options = {
             stops: [0, 100]
         }
     },
-    colors: ["#0d6efd"],
+    colors: ["#ff0000"],
     grid: {
         show: true,
         borderColor: '#ededed',
@@ -554,7 +554,7 @@ var options = {
         width: 3,
         colors: ['transparent']
     },
-    colors: [ "#0d6efd", '#b4d2ff'],
+    colors: [ "#ff0000", '#b4d2ff'],
     yaxis: {
         labels: {
             formatter: function (value) {
@@ -608,7 +608,7 @@ var options = {
             left: 14,
             blur: 4,
             opacity: 0.12,
-            color: '#0d6efd',
+            color: '#ff0000',
         },
         sparkline: {
             enabled: true
@@ -616,7 +616,7 @@ var options = {
     },
     markers: {
         size: 0,
-        colors: ["#0d6efd"],
+        colors: ["#ff0000"],
         strokeColors: "#fff",
         strokeWidth: 2,
         hover: {
@@ -638,7 +638,7 @@ var options = {
         width: 3,
        // curve: 'smooth'
     },
-    colors: ["#0d6efd"],
+    colors: ["#ff0000"],
     xaxis: {
         categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
     },

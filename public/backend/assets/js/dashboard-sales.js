@@ -104,7 +104,7 @@ $(function () {
 				left: 14,
 				blur: 4,
 				opacity: 0.12,
-				color: '#0d6efd',
+				color: '#ff0000',
 			},
 			sparkline: {
 				enabled: true
@@ -112,7 +112,7 @@ $(function () {
 		},
 		markers: {
 			size: 0,
-			colors: ["#0d6efd"],
+			colors: ["#ff0000"],
 			strokeColors: "#fff",
 			strokeWidth: 2,
 			hover: {
@@ -134,7 +134,7 @@ $(function () {
 			width: 2.4,
 			curve: 'smooth'
 		},
-		colors: ["#0d6efd"],
+		colors: ["#ff0000"],
 		xaxis: {
 			categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
 		},
@@ -479,14 +479,14 @@ $(function () {
 				shade: 'light',
 				type: 'horizontal',
 				shadeIntensity: 0.5,
-				gradientToColors: ['#0d6efd'],
+				gradientToColors: ['#ff0000'],
 				inverseColors: false,
 				opacityFrom: 1,
 				opacityTo: 1,
 				stops: [0, 100]
 			}
 		},
-		colors: ["#0d6efd"],
+		colors: ["#ff0000"],
 		series: [68],
 		stroke: {
 			lineCap: 'round',
@@ -742,7 +742,7 @@ chart.render();
 		series: {
 			regions: [{
 				values: {
-					IN: '#0d6efd',
+					IN: '#ff0000',
 					US: '#15b70a',
 					RU: '#f41127',
 					AU: '#ffb207'
